@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto|Montserrat|Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <nav id="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="./img/logo.png" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a id="home-nav" href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a id="about-nav" href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a id="faqs-nav" href="#faqs" class="scroll-link">faqs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner">
+        <div class="container">
+          <h1>Developer Student Clubs</h1>
+          <p>
+            Developer Student Clubs are university based community groups for
+            students interested in Google developer technologies. Students from
+            all undergraduate or graduate programs with an interest in growing
+            as a developer are welcome. By joining a DSC, students grow their
+            knowledge in a peer-to-peer learning environment and build solutions
+            for local businesses and their community.
+          </p>
+          <a href="#about" class="scroll-link btn btn-white">find out more</a>
+        </div>
+      </div>
+    </header>
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about <span>us</span></h2>
+      </div>
+      <div class="about-center section-center">
+        <img class="about-img" src="./img/about1.jpg" />
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <p>
+                I'm baby wolf pickled schlitz try-hard normcore marfa man bun
+                mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+                rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+                tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+                mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+                direct trade hoodie ugh chambray, craft beer pork belly flannel
+                tacos single-origin coffee art party migas plaid pop-up.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <p>
+                Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
+                crucifix offal deep v hella biodiesel. Church-key listicle
+                polaroid put a bird on it chillwave palo santo enamel pin,
+                tattooed meggings franzen la croix cray. Retro yr aesthetic four
+                loko tbh helvetica air plant, neutra palo santo tofu mumblecore.
+                Hoodie bushwick pour-over jean shorts chartreuse shabby chic.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <p>
+                Chambray authentic truffaut, kickstarter brunch taxidermy vape
+                heirloom four dollar toast raclette shoreditch church-key.
+                Poutine etsy tote bag, cred fingerstache leggings cornhole
+                everyday carry blog gastropub. Brunch biodiesel sartorial mlkshk
+                swag, mixtape hashtag marfa readymade direct trade man braid
+                cold-pressed roof party. Small batch adaptogen coloring book
+                heirloom. Letterpress food truck hammock literally hell of wolf
+                beard adaptogen everyday carry.
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="faqs" class="section">
+      <div class="title">
+        <h2>our <span>faqs</span></h2>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>copyright &copy; tu bui & hoang minh</p>
+      <p>all rights reserved</p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
