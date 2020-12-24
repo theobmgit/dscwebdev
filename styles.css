@@ -259,6 +259,9 @@ nav {
   color: var(--clr-blue-gg);
 }
 @media screen and (min-width: 800px) {
+  nav {
+    background: rgba(0, 0, 0, 0.25);
+  }
   .nav-center {
     width: 90vw;
     max-width: 1170px;
@@ -280,6 +283,7 @@ nav {
     display: flex;
   }
   .links a {
+    color: var(--clr-white);
     background: transparent;
     font-size: 1.25rem;
     text-transform: capitalize;
